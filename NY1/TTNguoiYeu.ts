@@ -97,7 +97,6 @@ export class ManagerHoney{
                 console.log("không có ngyeu")
             }
         }
-        this.list = this.list.filter((item)=>item.id!==e)
+        this.list = this.list.filter((item)=>item.id!==id)
     }
-
 }
